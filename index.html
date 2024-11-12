@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chicken Host - Minecraft Server Hosting</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+            scroll-behavior: smooth;
+        }
+
+        /* Header Section */
+        .hero {
+            background: linear-gradient(135deg, #FFDD57, #FF7643);
+            color: #fff;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero h1 {
+            font-size: 2.5em;
+            animation: fadeIn 1.5s ease;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            margin: 20px 0;
+            animation: fadeIn 2s ease;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            color: #fff;
+            background-color: #FF7643;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 10px;
+            animation: bounce 1.5s infinite;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            animation: slideUp 1.5s ease;
+        }
+
+        /* Plan Styles */
+        .plans .plan {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+            width: 250px;
+            animation: fadeIn 2s ease;
+        }
+
+        .plan h3 {
+            font-size: 1.5em;
+            color: #FF7643;
+        }
+
+        /* Benefits and FAQ */
+        .benefits ul {
+            list-style-type: none;
+            margin-top: 10px;
+            animation: fadeIn 1.8s ease;
+        }
+
+        .benefits ul li {
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
+        .faq p {
+            margin: 10px 0;
+            animation: fadeIn 2s ease;
+        }
+
+        /* Contact Section */
+        .contact {
+            background: #FF7643;
+            color: #fff;
+            padding: 30px 20px;
+        }
+
+        .contact a {
+            color: #fff;
+            text-decoration: underline;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideUp {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="hero">
+        <h1>Welcome to Chicken Host</h1>
+        <p>Reliable Minecraft server hosting for all your needs.</p>
+        <a href="#plans" class="button">Get Started</a>
+    </header>
+
+    <!-- Server Plans Section -->
+    <section id="plans" class="plans">
+        <h2>Our Server Plans</h2>
+        <div class="plan">
+            <h3>Starter</h3>
+            <p><strong>Price:</strong> $3.99/month</p>
+            <p><strong>RAM:</strong> 2 GB</p>
+            <p><strong>Storage:</strong> 10 GB SSD</p>
+        </div>
+        <div class="plan">
+            <h3>Pro</h3>
+            <p><strong>Price:</strong> $7.99/month</p>
+            <p><strong>RAM:</strong> 4 GB</p>
+            <p><strong>Storage:</strong> 20 GB SSD</p>
+        </div>
+        <div class="plan">
+            <h3>Ultimate</h3>
+            <p><strong>Price:</strong> $12.99/month</p>
+            <p><strong>RAM:</strong> 8 GB</p>
+            <p><strong>Storage:</strong> 50 GB SSD</p>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits">
+        <h2>Why Choose Chicken Host?</h2>
+        <ul>
+            <li>99.9% Uptime Guarantee</li>
+            <li>24/7 Customer Support</li>
+            <li>High Performance and DDoS Protection</li>
+            <li>Easy-to-Use Control Panel</li>
+        </ul>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <p><strong>Q:</strong> Can I upgrade my server plan later?<br><strong>A:</strong> Absolutely! You can upgrade anytime.</p>
+        <p><strong>Q:</strong> Do you offer mod support?<br><strong>A:</strong> Yes, all plans support popular mods.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <footer class="contact">
+        <h2>Contact Us</h2>
+        <p>Reach out at <a href="mailto:support@chickenhost.com">support@chickenhost.com</a></p>
+    </footer>
+</body>
+</html>
